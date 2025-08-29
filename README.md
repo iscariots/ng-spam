@@ -6,7 +6,7 @@
 3. run the script
 4. profit
 
-the highest and lowest variables are the highest and lowest post ids to reply to, set highest to whatever the newest post you can find is and set lowest to like 5000 below that
+the highest and lowest variables are the highest and lowest post ids to reply to, set highest to whatever the newest from https://www.newgrounds.com/news/post/ is and set lowest to like 5000 below that
 
 ---
 ### Disclaimer
