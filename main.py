@@ -8,11 +8,11 @@ chars = string.digits
 
 words = []
 LOWEST = 1557950
-HIGHEST = 1561989
+HIGHEST = 1563952
 
 with open("words.txt", "r") as file:
     for line in file.read().splitlines():
-        words.append(line)
+        words.append(line[:8])
 
 MESSAGE = "message here :p"
 COOKIES = {
@@ -79,4 +79,5 @@ while True:
     time.sleep(2)
     with ThreadPoolExecutor(max_workers=15) as executor:
         executor.map(send_comment, ids)
+
     time.sleep(60)
